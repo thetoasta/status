@@ -211,7 +211,8 @@ export const createRouter = (ctx: AppContext) => {
         return res
           .status(401)
           .type('html')
-          .send('<h1>Error: Session required</h1>')
+          .send('<h1>Hey, a error was located.</h1>')
+          .send('<h2>To send status, log in via the Log In button.</h2>')
       }
 
       // Construct & validate their status record
