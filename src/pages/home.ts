@@ -52,8 +52,8 @@ function content({ statuses, didHandleMap, profile, myStatus }: Props) {
   return html`<div id="root">
     <div class="error"></div>
     <div id="header">
-      <h1>Statusphere</h1>
-      <p>Set your status on the Atmosphere.</p>
+      <h1>Toastiphere</h1>
+      <p>Show off your status.</p>
     </div>
     <div class="container">
       <div class="card">
